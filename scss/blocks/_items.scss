@@ -1,0 +1,23 @@
+// Button Settings 
+.section_btn {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.btn {
+    background: none;
+    width: 100%;
+    max-width: 300px;
+    height: 60px;
+    border: 2px solid white;
+    color: $secondaryTextColor;
+    font-size: $textFontSize + 2;
+    cursor: pointer;
+    transition: $transition;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: $mainTextColor;
+
+}

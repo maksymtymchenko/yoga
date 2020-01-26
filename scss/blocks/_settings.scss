@@ -1,0 +1,50 @@
+// Reset default settings
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.container {
+    width: 100%;
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+
+// Mixins 
+
+@mixin flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+// VARS
+$transition: 0.2s linear all;
+$mainTextColor: #000000;
+$secondaryTextColor: #FFFFFF;
+$itemColor: #E28234;
+
+$textFontSize: 16px;

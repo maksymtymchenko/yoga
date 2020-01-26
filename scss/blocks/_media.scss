@@ -1,0 +1,55 @@
+@media only screen and (min-width : 1199px) {}
+
+@media only screen and (max-width : 991px) {}
+
+@media only screen and (max-width : 767px) {
+    .header_title {
+        margin-top: 50px;
+    }
+
+    .header_subtitle {
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width : 480px) {
+
+    .header_title {
+
+        & h1 {
+            font-size: 45px;
+            line-height: 48px;
+        }
+    }
+
+
+    .header_subtitle {
+
+        & p {
+            font-size: $textFontSize + 2;
+        }
+    }
+}
+
+@media only screen and (max-width : 320px) {
+
+    .header_nav {
+        flex-direction: column;
+
+        &-logo {
+            margin-bottom: 20px;
+        }
+    }
+
+    .header_title {
+        margin-top: 25px;
+    }
+
+    .header_subtitle {
+        margin-bottom: 30px;
+    }
+
+    .section_btn {
+        margin-bottom: 40px;
+    }
+}
