@@ -29,6 +29,9 @@
         margin-bottom: 50px;
     }
 
+    .reasons_wrapper-item {
+        flex-basis: 50%;
+    }
 }
 
 @media only screen and (max-width : 480px) {
@@ -50,6 +53,14 @@
 
     .description {
         padding: 30px 0;
+    }
+
+    .reasons_wrapper-item {
+        flex-basis: 100%;
+    }
+
+    .section_title {
+        padding: 60px 0;
     }
 }
 
@@ -74,4 +85,5 @@
     .section_btn {
         margin-bottom: 40px;
     }
+
 }
