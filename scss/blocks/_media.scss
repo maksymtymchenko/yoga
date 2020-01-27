@@ -2,6 +2,24 @@
 
 @media only screen and (max-width : 991px) {}
 
+@media only screen and (max-width : 867px) {
+
+    .description_img {
+        display: flex;
+        justify-content: center;
+        flex-basis: 100%;
+        margin-bottom: 15px;
+        // height: 400px;
+    }
+
+    .description_content {
+        text-align: center;
+        max-width: 500px;
+        margin: 0 auto;
+        flex-basis: 100%;
+    }
+}
+
 @media only screen and (max-width : 767px) {
     .header_title {
         margin-top: 50px;
@@ -11,19 +29,6 @@
         margin-bottom: 50px;
     }
 
-    .description_img {
-        display: flex;
-        justify-content: center;
-        flex-basis: 100%;
-        margin-bottom: 15px;
-    }
-
-    .description_content {
-        text-align: center;
-        max-width: 500px;
-        margin: 0 auto;
-        flex-basis: 100%;
-    }
 }
 
 @media only screen and (max-width : 480px) {
