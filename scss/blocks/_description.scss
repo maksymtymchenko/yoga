@@ -1,0 +1,57 @@
+.description {
+    padding: 50px 0;
+    background-color: #F8F2E4;
+}
+
+.description {
+    &_container {
+        padding: 15px;
+        @include flex();
+        flex-wrap: wrap;
+    }
+
+    &_img {
+        flex-basis: 50%;
+    }
+
+}
+
+.description_content {
+    flex-basis: 50%;
+
+    &-title {
+        font-size: 30px;
+        line-height: 37px;
+        font-weight: 400;
+    }
+
+    &-subtitle {
+        display: block;
+        margin-bottom: 30px;
+        font-size: 48px;
+        line-height: 57px;
+        font-weight: 400;
+    }
+
+    &-text {
+        font-size: $textFontSize;
+        line-height: 19px;
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
+}
+
+.description_points {
+    &-item {
+        display: flex;
+        margin-bottom: 20px;
+        align-items: center;
+
+        & span {
+            font-size: 18px;
+            line-height: 21px;
+            font-weight: 400;
+            margin-left: 15px;
+        }
+    }
+}
