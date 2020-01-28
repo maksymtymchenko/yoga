@@ -22,11 +22,30 @@
 
 }
 
+// Secondary Button
+
+.item_btn {
+    padding: 15px;
+}
+
+.secondary_btn {
+    max-width: 180px;
+    height: 40px;
+    border: 2px solid #E28234;
+    font-size: $textFontSize - 4;
+    color: #E28234;
+}
+
+.secondary_btn:hover {
+    background-color: #E28234;
+    color: $secondaryTextColor;
+}
+
 // Section title styles
 
 .section_title {
     text-align: center;
-    padding: 80px 0;
+    padding: 60px 0;
 }
 
 .title {

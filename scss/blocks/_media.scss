@@ -1,6 +1,15 @@
 @media only screen and (min-width : 1199px) {}
 
-@media only screen and (max-width : 991px) {}
+@media only screen and (max-width : 991px) {
+    .schedule_wrapper {
+        justify-content: center;
+    }
+
+    .schedule_wrapper-item {
+        margin-right: 15px;
+        flex-basis: 33.333%;
+    }
+}
 
 @media only screen and (max-width : 867px) {
 
@@ -32,6 +41,11 @@
     .reasons_wrapper-item {
         flex-basis: 50%;
     }
+
+
+    .schedule_wrapper-item {
+        flex-basis: 50%;
+    }
 }
 
 @media only screen and (max-width : 480px) {
@@ -57,10 +71,6 @@
 
     .reasons_wrapper-item {
         flex-basis: 100%;
-    }
-
-    .section_title {
-        padding: 60px 0;
     }
 }
 
