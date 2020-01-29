@@ -1,0 +1,44 @@
+.explain_container {
+    padding: 15px;
+}
+
+.explain_wrapper {
+    text-align: center;
+    padding-bottom: 30px;
+
+    &-text {
+        font-size: 18px;
+        line-height: 21px;
+        font-weight: 400;
+        margin-bottom: 25px;
+    }
+
+    &-title {
+        font-size: 24px;
+        line-height: 28px;
+        font-weight: 400;
+    }
+
+    &-items {
+        margin: 40px auto;
+        text-align: left;
+        max-width: 610px;
+        width: 100%;
+    }
+}
+
+.explain_item {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+
+    &-image {
+        margin-right: 50px;
+    }
+
+    &-text {
+        max-width: 370px;
+        width: 100%;
+    }
+}

@@ -86,8 +86,6 @@ img { max-width: 100%; display: block; }
 
 .reasons_wrapper-item img { margin: 0 auto; margin-bottom: 15px; }
 
-.schedule { padding-bottom: 60px; }
-
 .schedule_wrapper { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -ms-flex-wrap: wrap; flex-wrap: wrap; padding: 15px; }
 
 .schedule_wrapper-item { text-align: center; max-width: 220px; background-color: #FFF8E6; -ms-flex-preferred-size: 25%; flex-basis: 25%; margin-bottom: 20px; }
@@ -97,6 +95,22 @@ img { max-width: 100%; display: block; }
 .schedule_wrapper-item .item_title { font-size: 18px; line-height: 21px; font-weight: 600; padding-bottom: 10px; }
 
 .schedule_wrapper-item .item_more { display: block; text-decoration: underline; color: #5A56AF; font-size: 12px; line-height: 14px; font-weight: 400; padding-bottom: 10px; }
+
+.explain_container { padding: 15px; }
+
+.explain_wrapper { text-align: center; padding-bottom: 30px; }
+
+.explain_wrapper-text { font-size: 18px; line-height: 21px; font-weight: 400; margin-bottom: 25px; }
+
+.explain_wrapper-title { font-size: 24px; line-height: 28px; font-weight: 400; }
+
+.explain_wrapper-items { margin: 40px auto; text-align: left; max-width: 610px; width: 100%; }
+
+.explain_item { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -ms-flex-wrap: wrap; flex-wrap: wrap; margin-bottom: 30px; }
+
+.explain_item-image { margin-right: 50px; }
+
+.explain_item-text { max-width: 370px; width: 100%; }
 
 @media only screen and (max-width: 991px) { .schedule_wrapper { -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
   .schedule_wrapper-item { margin-right: 15px; -ms-flex-preferred-size: 33.333%; flex-basis: 33.333%; } }
@@ -108,6 +122,11 @@ img { max-width: 100%; display: block; }
   .header_subtitle { margin-bottom: 50px; }
   .reasons_wrapper-item { -ms-flex-preferred-size: 50%; flex-basis: 50%; }
   .schedule_wrapper-item { -ms-flex-preferred-size: 50%; flex-basis: 50%; } }
+
+@media only screen and (max-width: 580px) { .explain_item { text-align: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+  .explain_item-image { margin: 0 auto 35px; }
+  .section_title { padding: 40px 0; }
+  .title { font-size: 32px; } }
 
 @media only screen and (max-width: 480px) { .header_title h1 { font-size: 45px; line-height: 48px; }
   .header_subtitle p { font-size: 18px; }

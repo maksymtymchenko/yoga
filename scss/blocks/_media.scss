@@ -46,6 +46,26 @@
     .schedule_wrapper-item {
         flex-basis: 50%;
     }
+
+}
+
+@media only screen and (max-width : 580px) {
+    .explain_item {
+        text-align: center;
+        justify-content: center;
+
+        &-image {
+            margin: 0 auto 35px;
+        }
+    }
+
+    .section_title {
+        padding: 40px 0;
+    }
+
+    .title {
+        font-size: 32px;
+    }
 }
 
 @media only screen and (max-width : 480px) {
@@ -72,6 +92,7 @@
     .reasons_wrapper-item {
         flex-basis: 100%;
     }
+
 }
 
 @media only screen and (max-width : 320px) {
