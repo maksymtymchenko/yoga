@@ -9,6 +9,20 @@
         margin-right: 15px;
         flex-basis: 33.333%;
     }
+
+    .promotion_wrapper {
+        flex-direction: column;
+        justify-content: сenter;
+        align-items: center;
+    }
+
+    .promotion_gallery {
+        margin-bottom: 40px;
+    }
+
+    .promotion_gallery {
+        justify-content: center;
+    }
 }
 
 @media only screen and (max-width : 867px) {
@@ -27,6 +41,8 @@
         margin: 0 auto;
         flex-basis: 100%;
     }
+
+
 }
 
 @media only screen and (max-width : 767px) {
@@ -66,6 +82,12 @@
     .title {
         font-size: 32px;
     }
+
+    .promotion_gallery {
+        margin-bottom: 30px;
+    }
+
+
 }
 
 @media only screen and (max-width : 480px) {
@@ -91,6 +113,11 @@
 
     .reasons_wrapper-item {
         flex-basis: 100%;
+    }
+
+    .promotion_list-wrapp {
+        flex-direction: column;
+        margin-top: 25px;
     }
 
 }
