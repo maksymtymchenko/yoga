@@ -139,6 +139,26 @@ img { max-width: 100%; display: block; }
 
 .promotion_list-link::before { content: url("/images/promotion/list-logo.png"); margin-right: 8px; }
 
+.instructors { background-color: #F8F2E4; }
+
+.instructors_container { padding: 15px; }
+
+.instructors_wrapper { margin-bottom: -60px; }
+
+.instructors_wrapper-photo { position: relative; margin-bottom: 20px; }
+
+.instructors_wrapper-content { width: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: сenter; -ms-flex-align: сenter; align-items: сenter; position: absolute; bottom: 0; left: 0; background-color: rgba(0, 0, 0, 0.1); }
+
+.instructors_wrapper-title { display: block; padding: 20px 40px 10px; font-size: 30px; line-height: 36px; font-weight: 400; color: #FFFFFF; }
+
+.instructors_wrapper-subtitle { display: block; padding-left: 40px; font-size: 16px; line-height: 22px; font-weight: 400; color: #FFFFFF; }
+
+.instructors_wrapper-subtitle:last-child { padding-bottom: 25px; }
+
+.instructors_wrapper-border { width: 2px; height: 78px; background-color: #fff; border-radius: 3px; margin-top: 40px; margin-right: 40px; }
+
+.instructors_wrapper-text { padding-top: 40px; font-size: 14px; line-height: 16px; font-weight: 400; color: #FFFFFF; }
+
 @media only screen and (max-width: 991px) { .schedule_wrapper { -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
   .schedule_wrapper-item { margin-right: 15px; -ms-flex-preferred-size: 33.333%; flex-basis: 33.333%; }
   .promotion_wrapper { -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: сenter; -ms-flex-pack: сenter; justify-content: сenter; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }

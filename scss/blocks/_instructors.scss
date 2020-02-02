@@ -1,0 +1,65 @@
+.instructors {
+    background-color: #F8F2E4;
+
+    &_container {
+        padding: 15px;
+    }
+
+    &_wrapper {
+        margin-bottom: -60px;
+
+        &-photo {
+            position: relative;
+            margin-bottom: 20px;
+        }
+
+        &-content {
+            width: 100%;
+            display: flex;
+            align-items: сenter;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            background-color: rgba(0, 0, 0, 0.1);
+        }
+
+        &-title {
+            display: block;
+            padding: 20px 40px 10px;
+            font-size: 30px;
+            line-height: 36px;
+            font-weight: 400;
+            color: $secondaryTextColor;
+        }
+
+        &-subtitle {
+            display: block;
+            padding-left: 40px;
+            font-size: 16px;
+            line-height: 22px;
+            font-weight: 400;
+            color: $secondaryTextColor;
+
+            &:last-child {
+                padding-bottom: 25px;
+            }
+        }
+
+        &-border {
+            width: 2px;
+            height: 78px;
+            background-color: #fff;
+            border-radius: 3px;
+            margin-top: 40px;
+            margin-right: 40px;
+        }
+
+        &-text {
+            padding-top: 40px;
+            font-size: 14px;
+            line-height: 16px;
+            font-weight: 400;
+            color: $secondaryTextColor;
+        }
+    }
+}
