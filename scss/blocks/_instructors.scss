@@ -11,9 +11,17 @@
         &-photo {
             position: relative;
             margin-bottom: 20px;
+            cursor: pointer;
+            transition: 0.5s linear all;
+
+            &:hover .instructors_wrapper-content {
+                transition: 0.5s linear all;
+                opacity: 1;
+            }
         }
 
         &-content {
+            opacity: 0;
             width: 100%;
             display: flex;
             align-items: сenter;

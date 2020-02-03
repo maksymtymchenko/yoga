@@ -42,7 +42,9 @@
         flex-basis: 100%;
     }
 
-
+    .virtues_item {
+        margin-right: 15px;
+    }
 }
 
 @media only screen and (max-width : 767px) {
@@ -63,6 +65,9 @@
         flex-basis: 50%;
     }
 
+    .virtues_wrapper {
+        justify-content: center;
+    }
 }
 
 @media only screen and (max-width : 580px) {
@@ -87,6 +92,18 @@
         margin-bottom: 30px;
     }
 
+    .virtues_item-logo {
+        margin: 10px auto;
+    }
+
+    .virtues_item-title {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .virtues_item-text {
+        font-size: 14px;
+    }
 
 }
 
@@ -120,6 +137,9 @@
         margin-top: 25px;
     }
 
+    .virtues_item {
+        flex-basis: 100%;
+    }
 }
 
 @media only screen and (max-width : 320px) {
