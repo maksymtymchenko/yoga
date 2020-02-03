@@ -191,6 +191,7 @@ img { max-width: 100%; display: block; }
   .header_subtitle { margin-bottom: 50px; }
   .reasons_wrapper-item { -ms-flex-preferred-size: 50%; flex-basis: 50%; }
   .schedule_wrapper-item { -ms-flex-preferred-size: 50%; flex-basis: 50%; }
+  .instructors_wrapper-content { display: none; }
   .virtues_wrapper { -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; } }
 
 @media only screen and (max-width: 580px) { .explain_item { text-align: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
