@@ -23,6 +23,16 @@
     .promotion_gallery {
         justify-content: center;
     }
+
+
+    .works_wrapper {
+        justify-content: center;
+    }
+
+    .works_item {
+        margin-bottom: 30px;
+        flex-basis: 25%;
+    }
 }
 
 @media only screen and (max-width : 867px) {
@@ -32,7 +42,6 @@
         justify-content: center;
         flex-basis: 100%;
         margin-bottom: 15px;
-        // height: 400px;
     }
 
     .description_content {
@@ -45,6 +54,7 @@
     .virtues_item {
         margin-right: 15px;
     }
+
 }
 
 @media only screen and (max-width : 767px) {
@@ -72,6 +82,7 @@
     .virtues_wrapper {
         justify-content: center;
     }
+
 }
 
 @media only screen and (max-width : 580px) {
@@ -109,6 +120,9 @@
         font-size: 14px;
     }
 
+    .works_item {
+        flex-basis: 45%;
+    }
 }
 
 @media only screen and (max-width : 480px) {
@@ -142,6 +156,10 @@
     }
 
     .virtues_item {
+        flex-basis: 100%;
+    }
+
+    .works_item {
         flex-basis: 100%;
     }
 }
