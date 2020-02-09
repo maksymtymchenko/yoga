@@ -55,6 +55,16 @@
         margin-right: 15px;
     }
 
+    .documents_wrapper {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .documents_item {
+        margin-bottom: 25px;
+        flex-basis: 50%;
+    }
+
 }
 
 @media only screen and (max-width : 767px) {
@@ -160,6 +170,10 @@
     }
 
     .works_item {
+        flex-basis: 100%;
+    }
+
+    .documents_item {
         flex-basis: 100%;
     }
 }
