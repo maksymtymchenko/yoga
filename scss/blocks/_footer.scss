@@ -1,0 +1,61 @@
+.footer {
+    background-color: #383838;
+
+    &_container {
+        padding: 15px;
+    }
+
+    &_wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    &_website {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    &_img {
+        margin-right: 30px;
+    }
+
+    &_direction {
+        font-size: 12px;
+        line-height: 21px;
+        font-weight: 400;
+        color: $secondaryTextColor;
+    }
+
+    &_link {
+        margin-top: 8px;
+        display: block;
+        font-size: 18px;
+        line-height: 21px;
+        font-weight: 400;
+        color: $secondaryTextColor;
+        text-decoration: underline;
+        transition: 0.2s;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+
+    &_name {
+        font-size: 12px;
+        line-height: 14px;
+        font-weight: 400;
+        color: $secondaryTextColor;
+    }
+
+    &_date {
+        font-size: 12px;
+        line-height: 14px;
+        font-weight: 400;
+        color: $secondaryTextColor;
+    }
+
+}

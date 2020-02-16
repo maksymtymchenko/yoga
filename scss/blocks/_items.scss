@@ -62,7 +62,10 @@
 // Map location
 
 .map {
-    padding-bottom: 30px;
+
+    &_container {
+        padding: 15px 15px 30px 15px;
+    }
 }
 
 .map_address {
